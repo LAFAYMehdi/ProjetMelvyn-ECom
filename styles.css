@@ -1,3 +1,165 @@
-body{
-  margin : 0; 
+body, html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: auto;
+    align-content: center;
+    background-color: #a7cfd2;
+}
+
+nav.container {
+    margin: 0; 
+    display: flex;
+    height: 30px; /* Conserve la hauteur du nav */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: #2b304c;
+}
+
+img {
+    max-width: 10%; /* Assure que les images ne dépassent pas leur conteneur */
+    height: auto; /* Garde l'aspect ratio */
+    object-position: 0% 50%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex-container {
+    margin: 60px 180px; /* Utilisation de marges verticales et horizontales */
+    display: flex;               
+    justify-content: center;       
+    align-items: flex-start; 
+    flex-wrap: wrap;            
+    column-gap: 3%;
+    row-gap: 3%;
+}
+
+.flex-container img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;        
+    border: 1px solid black;   
+}
+
+.window {
+    width: 252px;
+    height: 290px;
+    display: flex;
+    position: relative; /* Nécessaire pour le positionnement de l'overlay */
+}
+
+h4, p {
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+.googlemap img {
+    width: 600px; /* Largeur fixe pour l'image de la carte */
+}
+
+@media (min-width: 575px) {
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+    }
+
+    .item:hover {
+        color: #007bff;    
+    }
+
+    hr {
+        margin: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    header > img {
+        display: none; /* Masquer le logo sur les petits écrans */
+    }
+
+    p {
+        font-size: 24px; /* Ajustement de la taille de la police */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    nav.container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        background-color: #2c2c2c;
+        padding: 8px;
+        color: white;
+    }
+
+    .flex-container img {
+        height: 100vw; /* Ajustement de la taille des images pour petits écrans */
+        width: 100vw;
+    }
+
+    h4 {
+        font-size: 28px;
+        text-align: center; /* Centrer le texte */
+    }
+
+    .window {
+        width: 50vw;
+        height: 50vw; /* Ajustement pour les fenêtres sur petits écrans */
+    }
+
+    .window .d2 {
+        background-color: rgba(0, 0, 0, 0.5);
+        visibility: hidden;
+        opacity: 0; 
+        transition: opacity 0.3s; /* Ajout d'une transition pour un effet plus fluide */
+    }
+
+    .window:hover .d2 {
+        visibility: visible;
+        opacity: 1; /* Affiche l'overlay au survol */
+    }
+
+    div.d2 > div {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 20%;
+    }
+
+    .d2 {
+        display: flex;
+        justify-content: space-around; 
+        align-content: center;
+    }
+
+    .id1 {
+        margin-right: 3px;
+    }
+
+    .flex-container {
+        width: 574px; /* Conserve la largeur du conteneur flex */
+        margin: 0; /* Supprime les marges */
+    }
+
+    hr {
+        margin: 0; 
+    }
+
+    .item {
+        width: 100%; /* Assure que chaque item prend la largeur complète */
+    }
 }
