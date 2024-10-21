@@ -1,0 +1,35 @@
+body{
+}
+
+.table-produit{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.produit{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 20%;
+    border-radius: 15px;
+    color: black;
+    padding: 10px;
+}
+
+.img-produit{
+    width: 90%;
+    align-self: center;
+}
+
+.produit-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.produit-text p {
+    align-self: center;
+}
