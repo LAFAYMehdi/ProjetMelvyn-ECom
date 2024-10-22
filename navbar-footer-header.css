@@ -16,14 +16,34 @@ body{
   background-color: #ABD8DF;
   position: sticky;
   top: 0;
-  height: 80px;
+  height: 120px;
   border-bottom: 1px solid rgb(216, 206, 206);
+}
+
+.link
+{
+  color: #444444;
+}
+
+.link:hover
+{
+  color: #fff;
 }
 
 .navbar>img
 {
   height: 100%;
   width: auto;
+}
+
+.navbar svg
+{
+  transition: transform 0.2s;
+}
+
+.navbar svg:hover
+{
+  transform: rotate(360deg);
 }
 
 nav{
@@ -61,6 +81,7 @@ header{
   justify-content:center;
   align-items:center;
   background-color: #b4c9c6;
+  padding-bottom: 40px;
 }
 
 header h1{
@@ -75,6 +96,35 @@ header button{
   border-radius: 5px;
   outline:none;
   cursor:pointer;
+}
+
+.btn a:hover
+{
+  display: block;
+    background-color: #3a4e4b;
+    border-radius: 8px;
+    font-size: large;
+    color: #ffffff;
+}
+
+.btn a
+{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: large;
+    color: #444444;
+}
+
+a :hover
+{
+  color: #ffffff;
+}
+
+a
+{
+  text-decoration: none;
+  color: #444444;
 }
 
 header svg
@@ -162,9 +212,6 @@ footer .social-media p{
 
 
 @media screen and (max-width: 640px){
-  .navbar .onglets .link, .navbar h1{
-    display:none;
-  }
   .cards .card img{
     width: 300px;
   }
