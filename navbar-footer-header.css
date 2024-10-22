@@ -36,6 +36,16 @@ body{
   width: auto;
 }
 
+.navbar svg
+{
+  transition: transform 0.2s;
+}
+
+.navbar svg:hover
+{
+  transform: rotate(360deg);
+}
+
 nav{
   display: flex;
   flex-wrap:wrap;
