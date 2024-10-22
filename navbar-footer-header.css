@@ -33,7 +33,7 @@ nav{
   margin-right: 30px;
 }
 
-nav>p{
+nav>a{
   font-size: 17px;
   cursor:pointer;
 }
