@@ -50,6 +50,11 @@ body{
   width: auto;
 }
 
+body > div.navbar > a > img{
+  height: 120px;
+  border-radius: 66%
+}
+
 .navbar svg
 {
   transition: transform 0.2s;
@@ -59,6 +64,10 @@ body{
 {
   transform: rotate(360deg);
   fill: #78c6c7;
+}
+
+body > div.navbar > a > img:hover{
+  transform: scale(1.1);
 }
 
 nav{
