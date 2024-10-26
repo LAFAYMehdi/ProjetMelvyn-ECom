@@ -190,7 +190,8 @@ header svg
   justify-content: center;
 }
 .cards .card{
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   cursor:pointer;
   margin-bottom: 30px;
 }
