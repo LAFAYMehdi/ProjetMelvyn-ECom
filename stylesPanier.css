@@ -218,8 +218,12 @@ footer{
     border-radius: 15px;
   }
   
+
+  #wZ > p:nth-child(4){
+    text-align: center;
+  }
   #wZ p{
-    width: 320px;
+    width: 440px;
     margin-top: 10px;
   }
 
@@ -231,8 +235,7 @@ footer{
 
   h4 {
     margin-top: 8px;
-    margin-bottom: 15px; /* Espacement réduit */ƒ
-    color: #000;
+    margin-bottom: 15px; /* Espacement réduit */
     text-align: center;
   }
 
