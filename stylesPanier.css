@@ -83,7 +83,7 @@ h4{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%; /* Largeur maximale du conteneur */
+  width: 100%; 
   max-width: 240px;
   overflow: hidden;
   border-radius: 15px;  
@@ -91,9 +91,9 @@ h4{
 
 
 .img > img{
-  width: 100%; /* L'image occupera 100% de la largeur du conteneur */
-  height: auto; /* Maintient le ratio de l'image */
-  display: block; /* Enlève les espaces blancs en dessous de l'image */
+  width: 100%; 
+  height: auto;
+  display: block; 
   border-radius: 15px;
   
 }
@@ -117,8 +117,8 @@ border: solid white;
 #wA{
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centre le conteneur verticalement */
-  justify-content: center; /* Centre le conteneur horizontalement */
+  align-items: center; 
+  justify-content: center; 
   margin-top: 80px;
   width: 45% !important;
   height: auto;
@@ -193,25 +193,25 @@ footer{
 @media (max-width: 640px) {
 
   h2, h4, p, .window #p1, .window #p2, #wA, #wZ, button, label {
-    color: #333333; /* Changez cette couleur selon vos besoins */
+    color: #333333; 
   }
   
   h2 {
     display: flex;
     justify-content: center;
-    position: relative; /* Changer la position pour éviter les chevauchements */
+    position: relative; 
     width: 100%;
-    font-size: 24px; /* Réduire la taille pour mobile */
+    font-size: 24px;
   }
 
   .flex-container {
-    margin: 0 10px; /* Réduire les marges pour mobile */
+    margin: 0 10px; 
     margin-top: 20px;
     display: flex;
-    flex-direction: column; /* Stack les items verticalement */
+    flex-direction: column; 
     align-items: center;    
-    height: auto; /* Ajuster la hauteur pour mobile */
-    row-gap: 10px; /* Espacement réduit */
+    height: auto; 
+    row-gap: 10px;
     column-gap: 0;
     padding-top: 0;
     background-color: #ffffff;
@@ -223,41 +223,41 @@ footer{
     text-align: center;
   }
   #wZ p{
-    width: 440px;
+    width: 100%;
     margin-top: 10px;
   }
 
   .window #p1,
   .window #p2 {
-    font-size: 24px; /* Taille de police réduite pour mobile */
-    margin: 10px 0; /* Espacement réduit */
+    font-size: 24px; 
+    margin: 10px 0; 
   }
 
   h4 {
     margin-top: 8px;
-    margin-bottom: 15px; /* Espacement réduit */
+    margin-bottom: 15px; 
     text-align: center;
   }
 
   #wA > div:nth-child(1) {
-    margin-top: 5px; /* Espacement réduit */
+    margin-top: 5px; 
   }
 
   .img {
-    max-width: 180px; /* Taille réduite pour mobile */
-    margin: 0 auto; /* Centrer pour mobile */
+    max-width: 180px; 
+    margin: 0 auto; 
   }
 
   
   .img > img {
-    max-width: 100%; /* Ajuste la largeur de l'image au conteneur */
+    max-width: 100%;
     height: auto;
     border-radius: 15px;
   }
 
   button {
-    width: 100%; /* Largeur maximale pour une meilleure ergonomie */
-    padding: 8px; /* Augmentez la taille pour le toucher mobile */
+    width: 100%; 
+    padding: 8px; 
     background-color: white;
     border-radius: 5px;
     border: solid #69bcea;
@@ -269,26 +269,26 @@ footer{
   }
 
   #wA {
-    width: 90%; /* Occupe plus d'espace en largeur */
+    width: 90%; 
     border-radius: 10px;
   }
 
   #wZ {
     display: flex;
     flex-direction: column;
-    width: 90%; /* Occupe plus d'espace en largeur */
-    height: auto; /* Ajuster la hauteur pour mobile */
-    font-size: 15px; /* Taille de police réduite */
+    width: 90%; 
+    height: auto;
+    font-size: 15px; 
     border-radius: 10px;
   }
 
   #wZ > label {
-    margin-top: 5px; /* Espacement réduit */
+    margin-top: 5px; 
   }
 
   #wZ > div > img {
     position: relative;
-    height: 30px; /* Taille réduite pour mobile */
+    height: 30px;
     width: 30px;
     margin-left: auto;
     margin-right: 2%;
@@ -301,7 +301,7 @@ footer{
     height: 40px;
   }
   #wZ > div > p{
-    width: 60%;
+    width: 80%;
     margin-right: 0;
   }
   #wA > button {
@@ -321,7 +321,7 @@ footer{
 
   main {
     height: auto;
-    padding: 10px; /* Espacement pour mobile */
+    padding: 10px; 
   }
 
   .navbar{
