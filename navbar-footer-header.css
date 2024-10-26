@@ -328,6 +328,8 @@ footer .social-media p{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 
   }
 
