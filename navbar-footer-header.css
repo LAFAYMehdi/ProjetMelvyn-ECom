@@ -280,8 +280,22 @@ footer .social-media p{
   background-color: #000;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 676px){
   .cards .card img{
     width: 300px;
+
   }
+  .card 
+  {
+    align-self: center;
+    margin-bottom: 40px;
+    margin-right: 0;
+    justify-content: center;
+
+  }
+
+footer
+{
+    left: 50%;
+}
 }
