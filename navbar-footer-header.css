@@ -187,10 +187,12 @@ header svg
   flex-wrap:wrap;
   margin: 20px;
   margin-right: 40px;
+  justify-content: center;
 }
 .cards .card{
   margin-right: 40px;
   cursor:pointer;
+  margin-bottom: 30px;
 }
 .cards .card img{
   width: 350px;
@@ -294,6 +296,12 @@ footer .social-media p{
     padding-bottom: 10px;
   }
 
+  .navbar a
+  {
+    justify-content: center;
+    display: flex;
+  }
+
   .navbar{
     flex-direction: column;
     height: auto;
@@ -309,12 +317,16 @@ footer .social-media p{
   footer{
     justify-content: center;
   }
+  .cards
+  {
+    justify-content: center;
+  }
+
   .card 
   {
-    align-self: center;
-    margin-bottom: 40px;
-    margin-right: 0;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 
   }
 
