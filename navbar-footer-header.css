@@ -190,7 +190,8 @@ header svg
   justify-content: center;
 }
 .cards .card{
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   cursor:pointer;
   margin-bottom: 30px;
 }
@@ -327,6 +328,8 @@ footer .social-media p{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 
   }
 
