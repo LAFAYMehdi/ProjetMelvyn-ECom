@@ -4,7 +4,7 @@ body{
   margin:0px;
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
-  background-image: url(fondnuages.png);
+  background-image: url(../image/fondnuages.png);
   color: white;
   display: flex;
   flex-direction: column;
@@ -186,9 +186,9 @@ header svg
   display:flex;
   flex-wrap:wrap;
   margin: 20px;
-  margin-right: 40px;
   justify-content: center;
 }
+
 .cards .card{
   margin-left: 20px;
   margin-right: 20px;
