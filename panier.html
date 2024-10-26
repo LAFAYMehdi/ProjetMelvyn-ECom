@@ -25,18 +25,31 @@
     <main>
     <section class="flex-container">
         <h2>Récapitulatif de mon panier</h2>
-        <div class="window">
-          <p id="p1">Votre panier ne manque pas d'air</p>
-          <p id="p2">:-/</p>
+        <div class="window" id="wA">
+          <div class="img">
+            <img src="air2.webp">
+          </div>
+            <h4 class="title">Air indien x1</h4>
+            <div class="img">
+              <img src="air1.webp">
+            </div>
+              <h4 class="title">Air Parisien x1</h4>
+            <button onclick="window.location.href='boutique.html'">Ajouter d'autres produits au panier</button>
         </div>
-        <div class="window">
-          <label for="code">code réduc :</label>
-          <input type="text" name="code réduc" value="code réduc ?" id="code">
-          <p> Total</p>
+        <div class="window" id="wZ">
+          <label for="code">Code Réduction</label>
+          <input type="text" name="code réduc" placeholder="Exemple : 'NikeAir'" id="code">
+          <p>Total (TCC): 0€</p>
           <button>Valider ma commande</button>
-          <p> Expédié en 24h</p>
-          <p> Frais de port offert dès 50€ d'achats </p>
-          <p> Paiement Super Sécurisé </p>
+          <div id="divT1">
+          <p> Expédié en 24h</p><img src="24h.png" alt="" id="img1">
+          </div>
+          <div id="divT2">
+            <p> Frais de port offert dès 50€ d'achats </p><img src="chariot-de-transport.png" alt="" id="img2">
+          </div>
+          <div id="divT3">
+          <p> Paiement Super Sécurisé </p><img src="lock.png" alt="" id="img3">
+          </div>
         </div>
 
     </section>
