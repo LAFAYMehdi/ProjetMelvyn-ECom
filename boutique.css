@@ -1,6 +1,3 @@
-body{
-}
-
 .table-produit{
     display: flex;
     flex-direction: row;
@@ -18,6 +15,7 @@ body{
     border-radius: 15px;
     color: black;
     padding: 10px;
+    border: solid 3px #69bcea;
 }
 
 .img-produit{
