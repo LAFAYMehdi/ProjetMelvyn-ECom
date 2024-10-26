@@ -26,6 +26,7 @@ h2{
     justify-content: center;
     position: absolute;
     width: -webkit-fill-available;
+    color: #323762;
 }
 
 .flex-container {
@@ -71,6 +72,10 @@ h2{
   color: black;
 }
 
+#wZ > p:nth-child(4){
+  text-align: center;
+}
+
 h4{
   margin-top: 8px;
   margin-bottom: 20px;
@@ -101,14 +106,14 @@ button{
   display: flex;
   align-items: center; 
   justify-content: center; 
-  background-color: white;
+  background-color: #69bcea;
   border-radius: 5px;
-  border: solid #69bcea;
+  border: solid #323762;
 }
 
 button:hover{
-background-color: #69bcea;
-border: solid white;
+background-color: white;
+border: solid #69bcea;
 }
 
 
@@ -167,6 +172,7 @@ margin-right: 2%;
 
 #wZ  p{
   margin-left: 2%;
+  white-space: pre-wrap;
 }
 
 #wZ  label{
@@ -179,15 +185,8 @@ margin-left: 2%;
 }
 #wA > button{
   margin-bottom: 10px;
-  border-radius: 8px;
-  background-color: #ffffff;
-  color: #444444;
-  border: solid #69bcea;
 }
-#wA > button:hover{
-background-color: #69bcea;
-border: solid white;
-}
+
 main{
   height: auto;
 }
@@ -235,6 +234,8 @@ footer{
   #wZ p{
     width: 100%;
     margin-top: 10px;
+    white-space: pre-wrap;
+
   }
 
   .window #p1,
@@ -268,14 +269,15 @@ footer{
   button {
     width: 100%; 
     padding: 8px; 
-    background-color: white;
+    background-color: #69bcea;
     border-radius: 5px;
-    border: solid #69bcea;
+    border: solid #323762;
   }
 
+
   button:hover {
-    background-color: #69bcea;
-    border: solid white;
+    background-color: white;
+    border: solid #69bcea;
   }
 
   #wA {
@@ -319,14 +321,7 @@ footer{
     padding: 10px;
     margin-bottom: 8px;
     border-radius: 5px;
-    background-color: #ffffff;
-    color: #444444;
-    border: solid #69bcea;
-  }
-
-  #wA > button:hover {
-    background-color: #69bcea;
-    border: solid white;
+    
   }
 
   main {
