@@ -62,7 +62,7 @@ body > div.navbar > a > img{
 .navbar svg:hover
 {
   transform: rotate(360deg);
-  fill: #78c6c7;
+  fill: #87CEEB;
 }
 
 body > div.navbar > a > img:hover{
