@@ -12,6 +12,7 @@
     flex-direction: column;
     background-color: white;
     width: 20%;
+    min-width: 300px;
     border-radius: 15px;
     color: black;
     padding: 10px;
