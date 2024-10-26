@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media (min-width: 640px) {
 ul {
     width: 400px;
     display: flex;
@@ -186,12 +188,155 @@ footer{
   box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
 
 }
-  @media screen and (max-width: 640px){
-    nav .onglets .link, nav h1{
-      display:none;
-    }
-    .cards .card img{
-      width: 300px;
-    }
+}
+
+@media (max-width: 640px) {
+
+  h2, h4, p, .window #p1, .window #p2, #wA, #wZ, button, label {
+    color: #333333; /* Changez cette couleur selon vos besoins */
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: center;
+    position: relative; /* Changer la position pour éviter les chevauchements */
+    width: 100%;
+    font-size: 24px; /* Réduire la taille pour mobile */
   }
 
+  .flex-container {
+    margin: 0 10px; /* Réduire les marges pour mobile */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Stack les items verticalement */
+    align-items: center;    
+    height: auto; /* Ajuster la hauteur pour mobile */
+    row-gap: 10px; /* Espacement réduit */
+    column-gap: 0;
+    padding-top: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  #wZ p{
+    width: 320px;
+    margin-top: 10px;
+  }
+
+  .window #p1,
+  .window #p2 {
+    font-size: 24px; /* Taille de police réduite pour mobile */
+    margin: 10px 0; /* Espacement réduit */
+  }
+
+  h4 {
+    margin-top: 8px;
+    margin-bottom: 15px; /* Espacement réduit */ƒ
+    color: #000;
+    text-align: center;
+  }
+
+  #wA > div:nth-child(1) {
+    margin-top: 5px; /* Espacement réduit */
+  }
+
+  .img {
+    max-width: 180px; /* Taille réduite pour mobile */
+    margin: 0 auto; /* Centrer pour mobile */
+  }
+
+  
+  .img > img {
+    max-width: 100%; /* Ajuste la largeur de l'image au conteneur */
+    height: auto;
+    border-radius: 15px;
+  }
+
+  button {
+    width: 100%; /* Largeur maximale pour une meilleure ergonomie */
+    padding: 8px; /* Augmentez la taille pour le toucher mobile */
+    background-color: white;
+    border-radius: 5px;
+    border: solid #69bcea;
+  }
+
+  button:hover {
+    background-color: #69bcea;
+    border: solid white;
+  }
+
+  #wA {
+    width: 90%; /* Occupe plus d'espace en largeur */
+    border-radius: 10px;
+  }
+
+  #wZ {
+    display: flex;
+    flex-direction: column;
+    width: 90%; /* Occupe plus d'espace en largeur */
+    height: auto; /* Ajuster la hauteur pour mobile */
+    font-size: 15px; /* Taille de police réduite */
+    border-radius: 10px;
+  }
+
+  #wZ > label {
+    margin-top: 5px; /* Espacement réduit */
+  }
+
+  #wZ > div > img {
+    position: relative;
+    height: 30px; /* Taille réduite pour mobile */
+    width: 30px;
+    margin-left: auto;
+    margin-right: 2%;
+    top: -40px;  
+  }
+
+  #wZ > div {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+  }
+  #wZ > div > p{
+    width: 60%;
+    margin-right: 0;
+  }
+  #wA > button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #444444;
+    border: solid #69bcea;
+  }
+
+  #wA > button:hover {
+    background-color: #69bcea;
+    border: solid white;
+  }
+
+  main {
+    height: auto;
+    padding: 10px; /* Espacement pour mobile */
+  }
+
+  .navbar{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  
+  }
+  
+
+  body > div.navbar > nav > a:nth-child(4){
+    display: flex;
+    justify-content: center;
+  }
+
+  footer{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+}
+  
